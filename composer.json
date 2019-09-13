@@ -1,0 +1,20 @@
+{
+  "name": "enovision/slim-http",
+  "description": "Middleware that handles your request input with flexible validation and sanitation",
+  "type": "library",
+  "require": {
+    "respect/validation": "^1.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johan van de Merwe",
+      "email": "j.vd.merwe@enovision.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Enovision\\Slim\\Http\\": "src/"
+    }
+  }
+}
